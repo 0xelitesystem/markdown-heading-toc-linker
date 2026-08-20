@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -126,6 +126,29 @@
   footer { margin-top: 36px; color: var(--muted); font-size: 0.8rem; }
   footer a { color: var(--accent); }
   code.inline { font-family: var(--mono); font-size: 0.85em; background: var(--panel); padding: 1px 5px; border-radius: 4px; }
+</style>
+<style>
+/* elitesystem brand tokens: chrome only, meaning preserved */
+:root, :root[data-theme="dark"] {
+  --accent: #d4ff3a;
+  --accent-fg: #0a0a0a;
+  --bg: #0a0a0a;
+  --border: #1f1f1d;
+  --fg: #e8e8e3;
+  --muted: #6e6e68;
+  --panel: #111110;
+}
+:root[data-theme="light"] {
+  --accent: #2d6b00;
+  --accent-fg: #ffffff;
+  --bg: #e8ebef;
+  --border: #c8cdd5;
+  --fg: #0a0a0a;
+  --muted: #6e6e68;
+  --panel: #dee2e8;
+}
+:root { color-scheme: dark; }
+:root[data-theme="light"] { color-scheme: light; }
 </style>
 </head>
 <body>

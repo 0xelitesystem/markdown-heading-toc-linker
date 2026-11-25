@@ -1,8 +1,8 @@
-# Markdown TOC Generator
+# Markdown Heading TOC Linker
 
 Generate a linked table of contents from markdown headings, entirely in your browser.
 
-**Live demo:** https://0xelitesystem.github.io/markdown-toc-generator/
+**Live demo:** https://0xelitesystem.github.io/markdown-heading-toc-linker/
 
 ## Use
 
@@ -24,8 +24,8 @@ Everything runs in your browser. Your markdown is never uploaded, logged, or sen
 ## Run locally
 
 ```
-git clone https://github.com/0xelitesystem/markdown-toc-generator.git
-cd markdown-toc-generator
+git clone https://github.com/0xelitesystem/markdown-heading-toc-linker.git
+cd markdown-heading-toc-linker
 ```
 
 Then open `index.html` in any browser. Or serve it locally:
